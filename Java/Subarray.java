@@ -1,5 +1,5 @@
-public class MaxSubarray {
-    public static void MaxSubarray(int numbers[]){
+public class Subarray {
+    public static void Subarray(int numbers[]){
         for(int i=0; i<numbers.length; i++){
             int start = i;
         for(int j=i; j<numbers.length; j++){
@@ -14,6 +14,6 @@ System.out.print(numbers[k]+ " ");
     }
     public static void main(String[] args){
         int numbers[]= {10,20,30,40,50};
-        MaxSubarray(numbers);
+        Subarray(numbers);
     }
 }
